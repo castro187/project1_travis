@@ -7,8 +7,8 @@ script: phpunit tests
 
 deploy:
 provider: heroku
-  api_key: "secure api key"
-  app: proyec1-travis
-  on: master
-  skip_cleanup: true
+app: proyec1-travis
+on: master
+skip_cleanup: true
+pi_key: "secure api key"
 secure: evkiBIeMGjreObXrMtnAsnGdfO1eEcYB+bHsUP7Q3R8FBCpsOWchD1gO9WfmfDvNCIo05tH11UkNO99bAbKGzDvCZD10YiUGZXJMDOARdppQIPudIccj/kER5SL///NhciF+8YyPAtICiEPESZ7B1mOiW2dg0OOrFkWBYDGW3abzZ9BeKn6LQtwem2KKMJO0KHSzGxfd+d56y5P/IUKGrcMiVMraUZ43cI+8K8+03CupPxu68VDGHcUl75DFCyO7aHvh0NjCWCHqeAG8ncWuMBYridh204tYtgcA+F8hBEwLQc8mloVxYjn4/XvGmIWmxDgp/4ET5iX5zgy66kul3xgUgzqkNGdca1+zMcvbsLuzAR9caZXdTvlxr9S6YG7g+D7dkg+YXcAJI8+fYaEhNBtkeXmXe1+rrVBXLE1gqTaGqNY63geGXXRTCqvOvze1OzFokLhzRGczu9TA7R9V6KFqI0s/anAGihVTLMmv+1Ed6M7euGwD72nP3YPuc/w6pRculCfKzWDfbUB/9+Xil7XEXiztMjLS1bNHyzis43EcyDmAEVDWfyJ+ZmoGgDGz13CxEwy5ddgTXl9jgPbK4sh6sFmfgxkD2oIKtSdfIvQ7Hv12H3h1VI1wFeCcLwtOudf7Rcj2Mj/VVn9JfLHLbm9TZERw4q1JFkeSuUaYn10=
